@@ -1,0 +1,10 @@
+# worker_api.py (Flask HTTP worker)
+flask==3.0.3
+requests==2.31.0
+
+# generate_ass.py usa exclusivamente la librería estándar de Python:
+#   - difflib      (fuzzy keyword matching con SequenceMatcher)
+#   - unicodedata  (normalización NFKD para español con tildes)
+#   - json         (parseo de WHISPER_RESULT y KEYWORDS_RESULT)
+#   - os, sys      (variables de entorno y salida de error)
+#   - string       (remoción de puntuación)
